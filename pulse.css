@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pulse Service Masters</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    header {
+      background-color: #1b5e20;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    nav {
+      background-color: #2e7d32;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #388e3c;
+      border-radius: 5px;
+    }
+    .hero {
+      background: url("https://images.unsplash.com/photo-1600423115369-b3b9f1e46c79?auto=format&fit=crop&w=1000&q=60") no-repeat center/cover;
+      color: white;
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .product:hover {
+      transform: scale(1.03);
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin: 0.8rem 0;
+      color: #1b5e20;
+    }
+    .product p {
+      padding: 0 1rem;
+      font-size: 0.95rem;
+      color: #444;
+    }
+    .footer {
+      background-color: #1b5e20;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pulse Service Masters</h1>
+    <p>Your Trusted Partner for Garden & Agricultural Equipment</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h1>Quality Tools for a Greener Tomorrow</h1>
+    <p>Explore our range of reliable and powerful gardening equipment.</p>
+  </section>
+
+  <section id="products" class="products">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&w=1000&q=60" alt="Brush Cutter" />
+      <h3>Brush Cutter</h3>
+      <p>Durable and efficient brush cutters for clearing grass and weeds effortlessly.</p>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1603816240631-7069f9c37b68?auto=format&fit=crop&w=1000&q=60" alt="Lawn Mower" />
+      <h3>Lawn Mower</h3>
+      <p>Powerful mowers to keep your lawn neat, tidy, and professionally trimmed.</p>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1598552164227-8fce05b1b6b7?auto=format&fit=crop&w=1000&q=60" alt="Hedge Trimmer" />
+      <h3>Hedge Trimmer</h3>
+      <p>Lightweight hedge trimmers designed for precision and comfort.</p>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1589578527966-5cbb287bcbce?auto=format&fit=crop&w=1000&q=60" alt="Chainsaw" />
+      <h3>Chainsaw</h3>
+      <p>Heavy-duty chainsaws for cutting trees, logs, and wooden materials with ease.</p>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1615812057359-8e60e16a5021?auto=format&fit=crop&w=1000&q=60" alt="Sprayer" />
+      <h3>Sprayer</h3>
+      <p>High-performance sprayers for agriculture, pest control, and cleaning tasks.</p>
+    </div>
+  </section>
+
+  <section id="about" style="padding: 2rem; text-align: center;">
+    <h2>About Us</h2>
+    <p>Pulse Service Masters is dedicated to providing high-quality garden and agricultural tools.  
+    Our mission is to make your gardening experience efficient, enjoyable, and eco-friendly.</p>
+  </section>
+
+  <section id="contact" style="padding: 2rem; text-align: center;">
+    <h2>Contact Us</h2>
+    <p>Email: info@pulseservicemasters.com | Phone: +91 98765 43210</p>
+    <p>Address: Chennai, Tamil Nadu, India</p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Pulse Service Masters. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
